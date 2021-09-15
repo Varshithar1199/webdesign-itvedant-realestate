@@ -1,0 +1,7 @@
+Container width : 960px
+has 12 columns
+has given space between the columns 
+they have given the spacing 20px
+at the ends they have given 10px spacing on both ends of left and right
+
+

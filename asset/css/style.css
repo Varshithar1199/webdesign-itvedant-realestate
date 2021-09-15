@@ -1,0 +1,165 @@
+* {
+	 box-sizing:border-box; /*  this is thw universal class selector i.e applied to all class */
+	 font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo{
+
+    /* border-style:solid; */
+	
+}
+
+
+.cname{
+
+    border-style:solid;
+	text-align:center;
+	height:100px;
+	padding-top:30px;
+	font-size:40px;
+	font-weight:bold;
+	background-color: #FBAB34;
+	color:white;
+	
+	
+	
+}
+
+.menu{
+	
+	/* border-style:solid; */
+	height:50px;
+	text-align:center;
+	padding-top:12px;
+	font-size:18px;
+	font-weight:bold;
+	background-color:#FBCB04;
+	
+}
+
+.menu a{
+	
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+
+.banner{
+	
+	margin-top:10px;
+}
+
+.section{
+	/* border-style:solid; */
+	text-align:center;
+	height:50px;
+	padding-top:12px;
+	font-size:22px;
+	font-weight:bold;
+	background-color: #FBAB34;
+	color:white;
+	margin-top:10px;
+	
+}
+
+.about{
+	margin-top:10px;
+	text-align:justify;
+}
+
+.service{
+	text-align:justify;
+	margin-top:20px;
+	box-shadow: 0px 0px 8px 5px #CAC7C7;
+	padding:5px;
+	transition-property:transform;
+	transition-duration:3s;
+}
+
+.service:hover{
+	transform:scale(1.1);
+}
+
+.contact{
+	 
+	 margin-top:10px;
+	 
+}
+
+.footer{
+	margin-top:10px;
+   
+	
+}
+
+.footer a {
+	 text-decoration:none;
+	 color:black;
+	
+}
+
+.footerbg{
+	 margin-top:50px;
+	 background-color:#FBAB34;
+	 
+	 
+}
+
+.whatsapp{
+	
+	position:fixed;
+	right:220px;
+	bottom: 400px;
+}
+
+@media only screen and (min-width:700px){
+.col-1{
+	
+	width:8.33%;
+	
+}
+
+.col-2{
+	
+	width:16.66%;
+}
+.col-3{
+	
+	width:25%;
+}
+.col-4{
+	
+	width:33.33%;
+}
+.col-5{
+	
+	width:41.65%;
+}
+.col-6{	
+	width:50%;
+}
+.col-7{
+	
+	width:58.31%;
+}
+.col-8{
+	
+	width:66.64%;
+}
+.col-9{
+	
+	width:75%;
+}
+.col-10{
+	
+	width:83.33%;
+}
+.col-11{
+	
+	width:91.63%;
+}
+.col-12{
+	
+	width:100%;
+}
